@@ -1,0 +1,14 @@
+import { Link } from "react-router-dom";
+
+function Header() {
+    return (
+        <header className="position: fixed; inset-x-0; top-0;">
+            <h1>Welcome Page!</h1>
+            <nav>
+                <Link to="/">HOME</Link>
+            </nav>
+        </header>
+    )
+};
+
+export default Header;
