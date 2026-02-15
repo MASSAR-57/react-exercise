@@ -1,17 +1,16 @@
 import Header from "./Header";
 import Footer from "./Footer";
-import image1 from "../assets/image.png";
 
-function Home() {
+const Ohwaku = (props) => {
     return (
         <>
             <Header />
               <div className="pt-25 bg-slate-800 min-h-screen">
-                <img src={image1} alt="テーマのイメージです" className="w-2s/4 object-center"></img>
+                {props}
               </div>
             <Footer />
         </>
     );
 };
 
-export default Home;
+export default Ohwaku;
